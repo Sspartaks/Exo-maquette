@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+}
+@import url(reset.css);  
+main{
+    background-color:#191919 ;
+}
+html {
+    /* 0.0625 * 16px = 1 (i.e., 1rem = 1px) */
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+  }
+  p{
+    font-size: 15px;
+  }
+  a{
+    font-size: 18px;
+  }
+nav {
+    
+    width: 100%;
+    background-color:black ;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+nav div 
+    {
+        width: 50%;
+    }
+    
+   
+    nav div:last-child
+    {
+        line-height: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: end;
+        
+    }
+    nav div:last-child a
+    {
+        padding: 0 20px;
+    }
+    nav a{
+        
+    color: lightgray;
+    margin: 0.5rem;
+    }
+
+nav a img 
+{
+   
+    width: 4rem;
+    height: 4rem;
+}
+
+  header{
+    
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-around;
+ }
+header div a
+ {
+   
+    padding: 1rem 2.25rem;
+    text-align: center;
+    line-height: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: white;
+ }
+
+ header div
+ {
+    line-height: 25rem;
+    text-align: center;
+    width: 50rem;
+    height: 25rem;
+   border-radius: 10px;
+    background-size: cover;
+ }
+ header div:first-child
+ {
+    background-image: url(../EXO_integration/s1b1.jpeg);
+ }
+ header div:nth-child(2)
+ {
+    background-image: url(../EXO_integration/s1b2.jpeg);
+ }
+ header div:last-child
+ {
+    background-image: url(../EXO_integration/s1b3.jpeg);
+ }
+ section{
+    display: flex;
+ }
+ #section1
+ {
+   
+    
+    text-align: center;
+    width: 100%;
+    margin: 0 0 5rem 0;
+   
+
+ }
+#section1 article{
+    width: 50%;
+}
+ #section1 article:first-child
+{
+    
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  
+} 
+#section1 article:first-child h2{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+#section1 article:first-child p{
+    color: white;
+}
+#section1 article:first-child audio{
+    width: 50%;
+   margin: 10px auto;
+}
+ #section1 article:last-child
+ {
+    border:solid 2px gray;
+    background-image: url(../EXO_integration/s2b2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section2 article:first-child
+{
+    background-color: black;
+    width: 30%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+
+}
+#section2 :first-child img{
+    width: 100%;
+    height: 40%;
+}
+#section2 article:last-child
+{
+    background-image: url(../EXO_integration/s3b2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 500px;
+}
+footer
+{
+    padding: 40px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+footer div{
+    font-size: 18px;    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 33.333%;
+
+}
+footer div:nth-child(2)
+{
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+footer div a 
+{
+    color: white;
+    padding: 5px 0;
+} 

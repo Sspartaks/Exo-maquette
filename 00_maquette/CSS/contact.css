@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+}
+@import url(reset.css);  
+main{
+    background-color:#191919 ;
+}
+:root {
+    /* 0.0625 * 16px = 1 (i.e., 1rem = 1px) */
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1{
+    font-size: 8rem;
+    color: white;
+  }
+  h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    color: white;
+  }
+  p{
+    font-size: 15px;
+  }
+  a{
+    font-size: 18px;
+  }
+nav {
+    
+    width: 100%;
+    background-color:black ;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+    nav div 
+    {
+        width: 50%;
+    }
+    
+   
+    nav div:last-child
+    {
+
+        line-height: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: end;
+        
+    }
+    nav div:last-child a
+    {
+        padding: 0 20px;
+    }
+    nav a{
+        
+    color: lightgray;
+    margin: 0.5rem;
+    }
+
+nav a img 
+{
+   
+    width: 4rem;
+    height: 4rem;
+}
+main
+{
+    background-color:#191919 ;
+}
+
+#section111
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    background-image: url(../EXO_integration/s1b3.jpeg);
+    background-size: cover;
+}
+#section111 h1{
+    margin: 40px 0 0 0;
+}
+#section111 h3{
+    font-size: 12px;
+}
+#section222
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+input
+{
+    border-style: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+}
+textarea
+{
+    border-style: none;
+    width: 100%;
+    margin: 0;
+    background-color: black;
+}
+::placeholder
+{
+    padding: 10px;
+    color: white;
+}
+.envoie input {
+    height: 25px;
+    line-height: 0;
+    width: 100%;
+    background-color: blue;
+    padding: 13px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: #fff;
+ }
+
+footer
+{
+    padding: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+footer div{
+    font-size: 18px;    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 33.333%;
+
+}
+footer div:nth-child(2)
+{
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+footer div a 
+{
+    color: white;
+    padding: 5px 0;
+} 

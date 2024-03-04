@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+}
+@import url(reset.css);  
+main{
+    background-color:#191919 ;
+}
+html {
+    /* 0.0625 * 16px = 1 (i.e., 1rem = 1px) */
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+  p{
+    font-size: 15px;
+  }
+  a{
+    font-size: 18px;
+  }
+nav {
+    
+    width: 100%;
+    background-color:black ;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+    nav div 
+    {
+        width: 50%;
+    }
+    
+   
+    nav div:last-child
+    {
+
+        line-height: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: end;
+        
+    }
+    nav div:last-child a
+    {
+        padding: 0 20px;
+    }
+    nav a{
+        
+    color: lightgray;
+    margin: 0.5rem;
+    }
+
+nav a img 
+{
+   
+    width: 4rem;
+    height: 4rem;
+}
+main
+{
+    background-color:#191919 ;
+}
+#section11
+{
+    
+    margin: 0 auto;
+    height: 400px;
+    background-image: url(../EXO_integration/s1b3.jpeg);
+    background-size: 80% 70% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#section11 h1{
+    margin: 30px 0;
+    line-height: 50px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 300px;
+}
+#section11 p{
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    width:75%;
+    text-align: center;
+    border-radius: 10px;
+}
+#section22
+{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-image: url(../EXO_integration/s2b2.jpeg);
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 300px;
+}
+#section22 article{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#section22 article p{
+    padding: 50px;
+    text-align: center;
+
+
+}
+footer
+{
+    padding: 40px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+footer div{
+    font-size: 18px;    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 33.333%;
+
+}
+footer div:nth-child(2)
+{
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+footer div a 
+{
+    color: white;
+    padding: 5px 0;
+} 
+#section33
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#section33 h2{
+    font-size: 20px;
+    margin: 40px 0 ;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#section33 div img{
+    display: flex;
+    width: 100%;
+    height: 250px;
+}
